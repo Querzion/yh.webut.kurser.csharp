@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "qtekoiX3RqQ=",
+  "success": false,
+  "projectFilePath": "/home/querzion/RiderProjects/yh.webut.kurser.ext/csharp/week_06/learn_023_maui/MobileApp/MobileApp.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1012",
+      "level": "Error",
+      "message": "Platform version is not present for one or more target frameworks, even though they have specified a platform: net9.0-ios, net9.0-maccatalyst"
+    }
+  ]
+}

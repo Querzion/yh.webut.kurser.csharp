@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             xmlns:models="clr-namespace:Shared.Models;assembly=Shared"
+             xmlns:viewmodels="clr-namespace:MauiWithMvvm.ViewModels"
+             x:DataType="{x:Type viewmodels:MainViewModel}"
+             
+             x:Class="MauiWithMvvm.MainPage">
+
+    <ScrollView>
+        <Grid RowDefinitions="Auto, *" Margin="20">
+
+            <VerticalStackLayout Grid.Row="0">
+                <Label Text="Company Name" Margin="0, 10" />
+                <Entry Text="{Binding RegistrationForm.CompanyName}" />
+                <Label Text="Contact Person" Margin="0, 10" />
+                <Entry Text="{Binding RegistrationForm.Contact.Name}" />
+
+                <Button Command="{Binding AddContactToListCommand}" 
+                        Text="Add To List"
+                        Margin="0, 20, 0, 20"
+                        Padding="0, 10" />
+            </VerticalStackLayout>
+
+            <CollectionView Grid.Row="1" ItemsSource="{Binding CustomerList}" Margin="0, 30, 0, 0">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="{x:Type models:Customer}" >
+                        <Grid ColumnDefinitions="*, Auto">
+                            <VerticalStackLayout Grid.Column="0" >
+                                <Label Text="{Binding CompanyName}" FontSize="16" />
+                                <Label Text="{Binding Contact.Name}" FontSize="12" />
+                            </VerticalStackLayout>
+
+                            <Button Grid.Column="1" Text="X" Margin="0, 0, 0, 15" 
+                                    CommandParameter="{Binding .}" 
+                                    Command="{Binding Path=RemoveContactFromListCommand, Source={RelativeSource AncestorType={x:Type viewmodels:MainViewModel}}}" />
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

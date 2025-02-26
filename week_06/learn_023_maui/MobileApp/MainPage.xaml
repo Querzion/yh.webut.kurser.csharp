@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.MainPage">
+
+    <Grid RowDefinitions="Auto, *, *" Margin="15">
+
+        <VerticalStackLayout Grid.Row="0">
+            <Label Text="Ange ditt namn" Margin="12, 0, 0, 15" />
+            <Entry x:Name="Entry_Name" Margin="0, 0, 0, 15" />
+            <Button x:Name="Button_Add" Text="Lägg Till" Clicked="Button_Add_Clicked" />
+        </VerticalStackLayout>
+
+        <ListView x:Name="List_NameList" Grid.Row="1">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Label Text="{Binding .}" FontSize="15" Margin="10" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <CollectionView x:Name="Collection_NameList" Grid.Row="2">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Label Text="{Binding .}" FontSize="15" Margin="10" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        
+    </Grid>
+
+</ContentPage>

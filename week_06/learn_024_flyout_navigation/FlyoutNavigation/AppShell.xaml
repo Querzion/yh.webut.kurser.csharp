@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="FlyoutNavigation.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:FlyoutNavigation"
+    
+    xmlns:pages="clr-namespace:FlyoutNavigation.Pages"
+    
+    Shell.FlyoutBehavior="Flyout"
+        
+    Shell.NavBarIsVisible="False"
+    
+    Title="FlyoutNavigation">
+
+    <FlyoutItem Title="Product List">
+        <ShellContent ContentTemplate="{DataTemplate pages:ProductListPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Add New Product">
+        <ShellContent ContentTemplate="{DataTemplate pages:ProductAddPage}" />
+    </FlyoutItem>
+
+</Shell>

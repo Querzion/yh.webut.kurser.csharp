@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "XYCfxHnDH5o=",
+  "success": false,
+  "projectFilePath": "/home/querzion/RiderProjects/yh.webut.kurser.ext/csharp/week_06/learn_026_maui_lists_events/TodoApp/TodoApp.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1012",
+      "level": "Error",
+      "message": "Platform version is not present for one or more target frameworks, even though they have specified a platform: net8.0-ios, net8.0-maccatalyst"
+    }
+  ]
+}

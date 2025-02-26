@@ -1,0 +1,213 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0-android35.0": {},
+    "net9.0-android35.0/android-arm64": {},
+    "net9.0-android35.0/android-x64": {},
+    "net9.0-ios": {},
+    "net9.0-ios/android-arm64": {},
+    "net9.0-ios/android-x64": {},
+    "net9.0-maccatalyst": {},
+    "net9.0-maccatalyst/android-arm64": {},
+    "net9.0-maccatalyst/android-x64": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net9.0-android35.0": [
+      "Avalonia >= 11.2.3",
+      "Microsoft.Extensions.Logging.Debug >= 9.0.0",
+      "Microsoft.Maui.Controls >= 9.0.21",
+      "Microsoft.NET.ILLink.Tasks >= 9.0.0"
+    ],
+    "net9.0-ios": [
+      "Avalonia >= 11.2.3",
+      "Microsoft.Extensions.Logging.Debug >= 9.0.0",
+      "Microsoft.Maui.Controls >= 9.0.21"
+    ],
+    "net9.0-maccatalyst": [
+      "Avalonia >= 11.2.3",
+      "Microsoft.Extensions.Logging.Debug >= 9.0.0",
+      "Microsoft.Maui.Controls >= 9.0.21"
+    ]
+  },
+  "packageFolders": {
+    "/home/querzion/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser.ext/csharp/week_06/learn_023_maui/MobileApp/MobileApp.csproj",
+      "projectName": "MobileApp",
+      "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser.ext/csharp/week_06/learn_023_maui/MobileApp/MobileApp.csproj",
+      "packagesPath": "/home/querzion/.nuget/packages/",
+      "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser.ext/csharp/week_06/learn_023_maui/MobileApp/obj/",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "configFilePaths": [
+        "/home/querzion/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0-android",
+        "net9.0-ios",
+        "net9.0-maccatalyst"
+      ],
+      "sources": {
+        "/usr/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0-android35.0": {
+          "targetAlias": "net9.0-android",
+          "projectReferences": {}
+        },
+        "net9.0-ios": {
+          "targetAlias": "net9.0-ios",
+          "projectReferences": {}
+        },
+        "net9.0-maccatalyst": {
+          "targetAlias": "net9.0-maccatalyst",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0-android35.0": {
+        "targetAlias": "net9.0-android",
+        "dependencies": {
+          "Avalonia": {
+            "target": "Package",
+            "version": "[11.2.3, )"
+          },
+          "Microsoft.Extensions.Logging.Debug": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Maui.Controls": {
+            "target": "Package",
+            "version": "[9.0.21, )"
+          },
+          "Microsoft.NET.ILLink.Tasks": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.0.0, )",
+            "autoReferenced": true
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.Android": {
+            "privateAssets": "all"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+      },
+      "net9.0-ios": {
+        "targetAlias": "net9.0-ios",
+        "dependencies": {
+          "Avalonia": {
+            "target": "Package",
+            "version": "[11.2.3, )"
+          },
+          "Microsoft.Extensions.Logging.Debug": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Maui.Controls": {
+            "target": "Package",
+            "version": "[9.0.21, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+      },
+      "net9.0-maccatalyst": {
+        "targetAlias": "net9.0-maccatalyst",
+        "dependencies": {
+          "Avalonia": {
+            "target": "Package",
+            "version": "[11.2.3, )"
+          },
+          "Microsoft.Extensions.Logging.Debug": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Maui.Controls": {
+            "target": "Package",
+            "version": "[9.0.21, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "android-arm64": {
+        "#import": []
+      },
+      "android-x64": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1012",
+      "level": "Error",
+      "message": "Platform version is not present for one or more target frameworks, even though they have specified a platform: net9.0-ios, net9.0-maccatalyst"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             xmlns:viewmodels="clr-namespace:ShellNavigation.ViewModels"
+             x:DataType="{x:Type viewmodels:ProductListViewModel}" 
+             
+             x:Class="ShellNavigation.Pages.ProductListPage"
+             Title="Product List">
+    <VerticalStackLayout>
+        <Label 
+            Text="Product List"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Button Text="Add New Product" Command="{Binding NavigateToAddCommand}" Margin="0,20,0,0" />
+      
+    </VerticalStackLayout>
+</ContentPage>

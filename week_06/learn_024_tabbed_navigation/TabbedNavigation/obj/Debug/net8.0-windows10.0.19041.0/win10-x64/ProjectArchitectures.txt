@@ -1,0 +1,1 @@
+C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_024_tabbed_navigation\TabbedNavigation\TabbedNavigation.csproj;x64

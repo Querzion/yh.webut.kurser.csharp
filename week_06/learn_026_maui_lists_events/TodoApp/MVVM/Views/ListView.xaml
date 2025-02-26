@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             xmlns:viewmodels="clr-namespace:TodoApp.MVVM.ViewModels"
+             xmlns:models="clr-namespace:TodoApp.MVVM.Models"
+             x:DataType="{x:Type viewmodels:ListViewModel}"
+             
+             x:Class="TodoApp.MVVM.Views.ListView"
+             Title="List All Activities">
+
+    <Grid RowDefinitions="Auto, *" Margin="20">
+
+        <Button Grid.Row="0" Text="Add New Activity" Margin="0,0,0,20"
+                Command="{Binding NavigateToAddCommand}" />
+
+        <CollectionView Grid.Row="1" ItemsSource="{Binding TodoItems}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:TodoItem">
+                    <Frame BackgroundColor="Transparent" BorderColor="Transparent" Padding="10" Margin="0">
+                        <Grid ColumnDefinitions="*, Auto">
+
+                            <Label Grid.Column="0" Text="{Binding Title}" VerticalOptions="Center" VerticalTextAlignment="Center" />
+
+                            <HorizontalStackLayout Grid.Column="1">
+                                <Button Text="EDIT" Margin="5,0,0,0" CommandParameter="{Binding .}"  
+                                Command="{Binding Path=NavigateToEditCommand, Source={RelativeSource AncestorType={x:Type viewmodels:ListViewModel}}}" />
+                                <Button Text="DELETE" Margin="5,0,0,0" CommandParameter="{Binding .}" 
+                                Command="{Binding Path=RemoveCommand, Source={RelativeSource AncestorType={x:Type viewmodels:ListViewModel}}}" />
+                            </HorizontalStackLayout>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        
+    </Grid>
+</ContentPage>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ShellNavigation.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ShellNavigation"
+   
+    xmlns:pages="clr-namespace:ShellNavigation.Pages"
+    
+    Shell.FlyoutBehavior="Disabled"
+    Title="ShellNavigation">
+
+    <ShellContent Title="AddProduct" Route="ProductAddPage" ContentTemplate="{DataTemplate pages:ProductAddPage}" />
+    <ShellContent Title="Overview" Route="ProductListPage" ContentTemplate="{DataTemplate pages:ProductListPage}" />
+
+</Shell>

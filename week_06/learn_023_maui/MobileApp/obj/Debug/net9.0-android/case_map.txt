@@ -1,0 +1,1 @@
+images/dotnet_bot;images/dotnet_bot
