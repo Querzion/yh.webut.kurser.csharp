@@ -1,2 +1,2 @@
 # yh.webut.kurser.csharp
-Empty for the time being.
+This repo has all the course material for the EC C# course.
