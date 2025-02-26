@@ -1,0 +1,178 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Design.PreviewWith>
+        <Border Padding="20">
+            <!-- Add Controls for Previewer Here -->
+        </Border>
+    </Design.PreviewWith>
+
+    <!-- ExitButton Button Class Styling -->
+    <Style Selector="Button.ExitButton">
+        <Setter Property="Content" Value="&#x23FB;"/>
+        <Setter Property="FontSize" Value="28" />
+        <Setter Property="FontWeight" Value="Medium" />
+        <Setter Property="HorizontalAlignment" Value="Right" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="BorderBrush" Value="Transparent" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="Foreground" Value="#9FABBD" />
+        <Setter Property="Margin" Value="20 0 20 0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="ButtonBorder">
+                        <TextBlock x:Name="ContentText"
+                            Text="{TemplateBinding Content}"
+                            FontWeight="{TemplateBinding FontWeight}"
+                            FontSize="{TemplateBinding FontSize}"
+                            Foreground="{TemplateBinding Foreground}"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            />
+                    </Border>
+                    
+                    <!-- WPF is different-->
+                    <!-- <ControlTemplate.Triggers> -->
+                            <!-- <Trigger Property="IsMouseOver" Value="True"> -->
+                            <!--     <Setter TargetName="ContentText" Property="Foreground" Value="Coral" /> -->
+                            <!-- </Trigger> -->
+                            <!-- <Trigger Property="IsPressed" Value="True"> -->
+                            <!--     <Setter TargetName="ContentText" Property="Foreground" Value="#9FABBD" /> -->
+                            <!-- </Trigger> -->
+                    <!-- </ControlTemplate.Triggers> -->
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <!-- Pseudo-class for hover effect -->
+    <Style Selector="Button.ExitButton:pointerover /template/ TextBlock#ContentText">
+        <Setter Property="Foreground" Value="PaleVioletRed" />
+    </Style>
+    
+    <!-- Pseudo-class for pressed effect -->
+    <Style Selector="Button.ExitButton:pressed /template/ TextBlock#ContentText">
+        <Setter Property="Foreground" Value="#9FABBD" />
+    </Style>
+    
+    
+    <!-- Standard Button -->
+    <Style Selector="Button.StandardButton">
+        <Setter Property="Padding" Value="15" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="Background" Value="PaleVioletRed" />
+        <Setter Property="Foreground" Value="DarkRed" />
+        <Setter Property="FontWeight" Value="Medium" />
+        <Setter Property="HorizontalAlignment" Value="Stretch" />
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+        <Setter Property="CornerRadius" Value="5" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="ButtonBorder"
+                            Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding Background}"
+                            Padding="{TemplateBinding Padding}"
+                            CornerRadius="5">
+                        
+                        <Grid ColumnDefinitions="20, *, 20">
+                            
+                            <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                <!-- <TextBlock Text="&#xf300;" FontFamily="{DynamicResource FontAwesome-Regular}" FontSize="24" /> -->
+                                <TextBlock x:Name="ContentText"
+                                           Text="{TemplateBinding Content}"
+                                           FontSize="{TemplateBinding FontSize}"
+                                           FontWeight="{TemplateBinding FontWeight}"
+                                           FontFamily="{TemplateBinding FontFamily}"
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center"
+                                />
+                            </StackPanel>
+                            
+                            <TextBlock Grid.Column="2" Foreground="#404040" 
+                                       FontFamily="{DynamicResource OpenDyslexicNerdFont-Bold}" 
+                                       Text="" FontSize="22" />
+                        </Grid>
+                        
+                    </Border>
+                    
+                    <!-- WPF Version -->
+                    <!-- <ControlTemplate.Triggers> -->
+                    <!--     <Trigger Property="IsMouseOver" Value="True"> -->
+                    <!--         <Setter TargetName="ButtonBorder" Property="Background" Value="DarkRed" /> -->
+                    <!--         <Setter TargetName="ContentText" Property="Forground" Value="White" /> -->
+                    <!--     </Trigger> -->
+                    <!--     <Trigger Property="IsPressed" Value="True"> -->
+                    <!--         <Setter TargetName="ButtonBorder" Property="Background" Value="#9FABBD" /> -->
+                    <!--         <Setter TargetName="ContentText" Property="Forground" Value="DarkRed" /> -->
+                    <!--     </Trigger> -->
+                    <!-- </ControlTemplate.Triggers> -->
+                    
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <!-- Avalonia Version -->
+    <!-- Hover (Pointer Over) Effect -->
+    <Style Selector="Button.StandardButton:pointerover /template/ Border#ButtonBorder">
+        <Setter Property="Background" Value="DarkRed" />
+    </Style>
+    <Style Selector="Button.StandardButton:pointerover /template/ TextBlock#ContentText">
+        <Setter Property="Foreground" Value="White" />
+    </Style>
+
+    <!-- Pressed Effect -->
+    <Style Selector="Button.StandardButton:pressed /template/ Border#ButtonBorder">
+        <Setter Property="Background" Value="#9FABBD" />
+    </Style>
+    <Style Selector="Button.StandardButton:pressed /template/ TextBlock#ContentText">
+        <Setter Property="Foreground" Value="DarkRed" />
+    </Style>
+    
+    <!-- Cancel Button -->
+    <Style Selector="Button.CancelButton">
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="Foreground" Value="#9FABBD" />
+        <Setter Property="FontWeight" Value="Medium" />
+        <Setter Property="HorizontalAlignment" Value="Stretch" />
+        <Setter Property="HorizontalContentAlignment" Value="Center" />
+        <Setter Property="CornerRadius" Value="5" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="ButtonBorder">
+                        <TextBlock x:Name="ContentText" 
+                                   Text="{TemplateBinding Content}"
+                                   FontSize="{TemplateBinding FontSize}"
+                                   FontWeight="{TemplateBinding FontWeight}"
+                                   FontFamily="{TemplateBinding FontFamily}"
+                                   Foreground="{TemplateBinding Foreground}"
+                                   Background="{TemplateBinding Background}"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <!-- Hover (Pointer Over) Effect -->
+    <!-- <Style Selector="Button.StandardButton:pointerover /template/ Border#ButtonBorder"> -->
+    <!--     <Setter Property="Background" Value="DarkRed" /> -->
+    <!-- </Style> -->
+    <Style Selector="Button.CancelButton:pointerover /template/ TextBlock#ContentText">
+        <Setter Property="Foreground" Value="PaleVioletRed" />
+    </Style>
+
+    <!-- Pressed Effect -->
+    <!-- <Style Selector="Button.StandardButton:pressed /template/ Border#ButtonBorder"> -->
+    <!--     <Setter Property="Background" Value="#9FABBD" /> -->
+    <!-- </Style> -->
+    <Style Selector="Button.CancelButton:pressed /template/ TextBlock#ContentText">
+        <Setter Property="Foreground" Value="#9FABBD" />
+    </Style>
+</Styles>

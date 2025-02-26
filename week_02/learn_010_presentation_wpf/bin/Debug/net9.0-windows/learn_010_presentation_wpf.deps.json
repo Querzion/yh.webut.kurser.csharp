@@ -1,0 +1,85 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "learn_010_presentation_wpf/1.0.0": {
+        "dependencies": {
+          "Business_": "1.0.0"
+        },
+        "runtime": {
+          "learn_010_presentation_wpf.dll": {}
+        }
+      },
+      "Business_/1.0.0": {
+        "dependencies": {
+          "Data_": "1.0.0",
+          "Domain_": "1.0.0"
+        },
+        "runtime": {
+          "Business_.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Data_/1.0.0": {
+        "runtime": {
+          "Data_.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Domain_/1.0.0": {
+        "dependencies": {
+          "Dtos_": "1.0.0"
+        },
+        "runtime": {
+          "Domain_.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Dtos_/1.0.0": {
+        "runtime": {
+          "Dtos_.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "learn_010_presentation_wpf/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Business_/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Data_/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain_/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dtos_/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

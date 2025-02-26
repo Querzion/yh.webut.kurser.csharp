@@ -1,0 +1,28 @@
+Uppgift: Skapa en JSON-baserad användarhanterare
+I denna uppgift ska du skapa ett program i C# och .NET som låter användaren hantera en lista av användare och spara dessa till en JSON-fil. 
+Programmet ska bestå av en service för filhantering och använda ett klassbibliotek.
+
+
+Exempel på hur det kan se ut:
+
+Huvudmenyn:
+
+1. Lägg till en användare
+
+2. Visa alla användare
+
+5. Avsluta
+
+
+Lista över användare:
+
+1. Namn: Hans, E-post: hans@example.com, Skapad: 2024-11-27
+
+2. Namn: Anna, E-post: anna@example.com, Skapad: 2024-11-26
+
+
+Instruktioner
+1. Skapa en User-klass
+2. Skapa en lista för användare
+3. Bygg huvudmenyn
+4. Skapa en filservice

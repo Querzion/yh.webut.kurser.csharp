@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "ex05_Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/ex05_Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ex05_Business.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ex05_Business/1.0.0": {
+      "type": "project",
+      "path": "../ex05_Business/ex05_Business.csproj",
+      "msbuildProject": "../ex05_Business/ex05_Business.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "ex05_Business >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/querzion/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_products_hans/ex05_products_hans.csproj",
+      "projectName": "ex05_products_hans",
+      "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_products_hans/ex05_products_hans.csproj",
+      "packagesPath": "/home/querzion/.nuget/packages/",
+      "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_products_hans/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/querzion/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "/usr/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_Business/ex05_Business.csproj": {
+              "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_Business/ex05_Business.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             
+             xmlns:local="clr-namespace:MA_Presentation_MVVM_Avalonia.Views"
+             xmlns:viewModels="clr-namespace:MA_Presentation_MVVM_Avalonia.ViewModels"
+             xmlns:models="clr-namespace:Business.Models;assembly=Business"
+             d:DataContext="{d:DesignInstance Type=viewModels:UserListViewModel}"
+             x:DataType="viewModels:UserListViewModel"
+             
+             
+             mc:Ignorable="d" d:DesignWidth="300" d:DesignHeight="450"
+             x:Class="MA_Presentation_MVVM_Avalonia.Views.UserListView">
+    
+    <!-- <UserControl.DataContext> -->
+    <!--     <viewModels:UserListViewModel /> -->
+    <!-- </UserControl.DataContext> -->
+    
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            
+            <TextBlock Grid.Column="0" Text="User List" FontSize="20" FontWeight="Bold"/>
+            <Button Grid.Column="1" Command="{Binding GoToAddViewCommand}" Content="&#x2795;" Padding="10 5"/>
+        </Grid>
+        
+        <ListBox Grid.Row="1" ItemsSource="{Binding Users}" Margin="0 20 0 0 " HorizontalAlignment="Stretch">
+            <ListBox.ItemTemplate>
+                <DataTemplate DataType="models:User">
+                    <!-- <Grid ColumnDefinitions="*, Auto"> -->
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        
+                        <StackPanel Grid.Column="0">
+                            <TextBlock Text="{Binding DisplayName}" />
+                            <TextBlock Text="{Binding Email}" FontSize="10" />
+                        </StackPanel>
+                        
+                        <StackPanel Grid.Column="1">
+                            <!-- <Button CommandParameter="{Binding .}" -->
+                            <!--         Command="{Binding DataContext.GoToDetailsViewCommand, RelativeSource={RelativeSource AncestorType=UserControl}}" -->
+                            <!--         Content="&#x2026;" Padding="8 5" /> -->
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+    
+</UserControl>

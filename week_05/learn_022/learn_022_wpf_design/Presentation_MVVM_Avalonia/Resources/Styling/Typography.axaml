@@ -1,0 +1,67 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Design.PreviewWith>
+        <Border Padding="20">
+            <!-- Add Controls for Previewer Here -->
+        </Border>
+    </Design.PreviewWith>
+
+    <!-- Title Text -->
+    <Style Selector="TextBlock.TitleText">
+        <Setter Property="FontFamily" Value="{DynamicResource OpenDyslexicNerdFont-Bold}" />
+        <Setter Property="FontSize" Value="24"/>
+        <Setter Property="Foreground" Value="#9FABBD" />
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="TextAlignment" Value="Center"/>
+    </Style>
+    
+    <!-- Headline Text -->
+    <Style Selector="TextBlock.HeadlineText">
+        <Setter Property="FontFamily" Value="{DynamicResource OpenDyslexicNerdFont-Bold}" />
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="Foreground" Value="#9FABBD" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="TextAlignment" Value="Center" />
+        <Setter Property="FontWeight" Value="Medium" />
+        <Setter Property="Margin" Value="0 0 0 20" />
+    </Style>
+    
+    <!-- Label Text -->
+    <Style Selector="TextBlock.LabelText">
+        <Setter Property="FontFamily" Value="{DynamicResource OpenDyslexicNerdFont-Bold}" />
+        <Setter Property="Margin" Value="3 5" />
+        <Setter Property="Foreground" Value="#9FABBD" />
+        <Setter Property="FontSize" Value="15" />
+        <Setter Property="FontWeight" Value="Medium" />
+    </Style>
+    
+    <!-- Warning Text -->
+    <Style Selector="TextBlock.WarningText">
+        <Setter Property="FontFamily" Value="{DynamicResource OpenDyslexicNerdFont-Bold}" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="TextAlignment" Value="Center" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="FontSize" Value="15" />
+        <Setter Property="FontWeight" Value="Medium" />
+        <Setter Property="Foreground" Value="#EA79AC" />
+        <Setter Property="Height" Value="50" />
+    </Style>
+    
+    <!-- Input Text -->
+    <Style Selector="TextBox.InputText">
+        <Setter Property="FontFamily" Value="{DynamicResource OpenDyslexicNerdFont-Bold}" />
+        <Setter Property="Margin" Value="0 0 0 15" />
+        <Setter Property="Background" Value="#44434F" />
+        <Setter Property="Foreground" Value="#9FABBD" />
+        <Setter Property="FontSize" Value="15" />
+        <Setter Property="Padding" Value="12" />
+        <Setter Property="BorderThickness" Value="0" />
+    </Style>
+    
+    <!-- Input Area Text -->
+    <Style Selector="TextBox.InputAreaText">
+        <Setter Property="Height" Value="300" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+    </Style>
+    
+</Styles>

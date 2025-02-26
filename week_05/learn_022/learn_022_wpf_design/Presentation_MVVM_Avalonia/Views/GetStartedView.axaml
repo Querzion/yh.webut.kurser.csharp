@@ -1,0 +1,38 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             
+             xmlns:local="clr-namespace:Presentation_MVVM_Avalonia"
+             xmlns:viewModels="clr-namespace:Presentation_MVVM_Avalonia.ViewModels"
+             xmlns:views="clr-namespace:Presentation_MVVM_Avalonia.Views"
+             d:DataContext="{d:DesignInstance Type=viewModels:GetStartedViewModel}"
+             x:DataType="viewModels:GetStartedViewModel"
+             
+             mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="700"
+             x:Class="Presentation_MVVM_Avalonia.Views.GetStartedView">
+    
+    <Border Background="#404040" Margin="5 0 5 5" CornerRadius="5 5 25 25 ">
+        <Grid Margin="50">
+            <StackPanel VerticalAlignment="Center">
+                <Image Source="avares://Presentation_MVVM_Avalonia/Resources/Images/paint.png" 
+                       Margin="0 50" HorizontalAlignment="Center" />
+                <!-- <TextBlock Text="You haven't added" /> -->
+                <!-- <TextBlock Text="any activities yet..." /> -->
+                <TextBlock Classes="TitleText">
+                    <Run Text="You haven't added" />
+                    <LineBreak/>
+                    <Run Text="any activities yet..." />
+                </TextBlock>
+                
+                <Button Content="GET STARTED"
+                        FontFamily="{DynamicResource OpenDyslexicNerdFont-Bold}"
+                        Classes="StandardButton"
+                        Command="{Binding GetStartedCommand}"
+                        Margin="0 40 0 0">
+                    
+                </Button>
+            </StackPanel>
+        </Grid>
+    </Border>
+</UserControl>

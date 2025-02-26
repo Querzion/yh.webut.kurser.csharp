@@ -1,0 +1,12 @@
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_Business/obj/Debug/net9.0/ex05_Business.GeneratedMSBuildEditorConfig.editorconfig
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_Business/obj/Debug/net9.0/ex05_Business.AssemblyInfoInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_Business/obj/Debug/net9.0/ex05_Business.AssemblyInfo.cs
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_Business/obj/Debug/net9.0/ex05_Business.csproj.CoreCompileInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_Business/obj/Debug/net9.0/ex05_Business.sourcelink.json
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_Business/bin/Debug/net9.0/ex05_Business.deps.json
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_Business/bin/Debug/net9.0/ex05_Business.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_Business/bin/Debug/net9.0/ex05_Business.pdb
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_Business/obj/Debug/net9.0/ex05_Business.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_Business/obj/Debug/net9.0/refint/ex05_Business.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_Business/obj/Debug/net9.0/ex05_Business.pdb
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_Business/obj/Debug/net9.0/ref/ex05_Business.dll

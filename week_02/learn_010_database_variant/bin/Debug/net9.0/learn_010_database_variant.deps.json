@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "learn_010_database_variant/1.0.0": {
+        "dependencies": {
+          "Business2": "1.0.0",
+          "Domain2": "1.0.0"
+        },
+        "runtime": {
+          "learn_010_database_variant.dll": {}
+        }
+      },
+      "Business2/1.0.0": {
+        "dependencies": {
+          "Data": "1.0.0",
+          "Domain2": "1.0.0"
+        },
+        "runtime": {
+          "Business2.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Data/1.0.0": {
+        "dependencies": {
+          "Domain2": "1.0.0"
+        },
+        "runtime": {
+          "Data.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Domain2/1.0.0": {
+        "runtime": {
+          "Domain2.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "learn_010_database_variant/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Business2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,27 @@
+_____
+WindowStartupLocation="CenterScreen":
+
+This sets the initial position of the window when it starts. In this case, the window will open in the center of the screen.
+
+_____
+TransparencyLevelHint="Transparent":
+
+This property sets the level of transparency for the window. When set to Transparent, it indicates that the window will be fully transparent (i.e., you can see through the window).
+
+_____
+ExtendClientAreaToDecorationsHint="True":
+
+This property allows the content of the window (client area) to extend under the window's border decorations (such as title bar, borders, etc.). 
+When set to True, it makes the content fill the entire window area, even under the window decorations.
+
+_____
+ExtendClientAreaChromeHints="NoChrome":
+
+This property removes the window's standard border and title bar (also known as "chrome"), making the window borderless. 
+When set to NoChrome, the window will have no title bar or border.
+
+_____
+SystemDecorations="None":
+
+This specifies that the window will not use any of the default system decorations, such as the title bar, border, 
+or buttons (close, minimize, maximize). Setting this to None makes the window completely custom, with no standard UI elements.

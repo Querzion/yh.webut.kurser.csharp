@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="MA_Presentation_MVVM_Avalonia/App.axaml" value="MA_Presentation_MVVM_Avalonia/MA_Presentation_MVVM_Avalonia.csproj" />
+        <entry key="MA_Presentation_MVVM_Avalonia/MainWindow.axaml" value="MA_Presentation_MVVM_Avalonia/MA_Presentation_MVVM_Avalonia.csproj" />
+        <entry key="MA_Presentation_MVVM_Avalonia/Views/UserAddView.axaml" value="MA_Presentation_MVVM_Avalonia/MA_Presentation_MVVM_Avalonia.csproj" />
+        <entry key="MA_Presentation_MVVM_Avalonia/Views/UserDetailsView.axaml" value="MA_Presentation_MVVM_Avalonia/MA_Presentation_MVVM_Avalonia.csproj" />
+        <entry key="MA_Presentation_MVVM_Avalonia/Views/UserEditView.axaml" value="MA_Presentation_MVVM_Avalonia/MA_Presentation_MVVM_Avalonia.csproj" />
+        <entry key="MA_Presentation_MVVM_Avalonia/Views/UserListView.axaml" value="MA_Presentation_MVVM_Avalonia/MA_Presentation_MVVM_Avalonia.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

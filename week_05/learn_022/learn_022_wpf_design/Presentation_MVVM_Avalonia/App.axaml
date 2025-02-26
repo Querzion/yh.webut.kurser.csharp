@@ -1,0 +1,38 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="Presentation_MVVM_Avalonia.App"
+             RequestedThemeVariant="Default">
+             <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
+
+    <Application.Styles>
+        <FluentTheme />
+        <!-- <StyleInclude Source="/Resources/Fonts/Fonts.axaml" /> -->
+        <!-- <StyleInclude Source="avares://Presentation_MVVM_Avalonia/Resources/Fonts/Fonts.axaml" /> -->
+        <StyleInclude Source="avares://Presentation_MVVM_Avalonia/Resources/Styling/Buttons.axaml" />
+        <StyleInclude Source="avares://Presentation_MVVM_Avalonia/Resources/Styling/Typography.axaml" />
+    </Application.Styles>
+             
+        <!-- The reason I got my fonts working eventually: https://www.youtube.com/watch?v=hAyeGWozi90 -->
+    <Application.Resources>
+        <FontFamily x:Key="MononokiNerdFont-Regular">Resources/Fonts/MononokiNerdFont-Regular.ttf#Mononoki Nerd Font Regular</FontFamily>
+        <FontFamily x:Key="MononokiNerdFont-Bold">Resources/Fonts/MononokiNerdFont-Bold.ttf#Mononoki Nerd Font Bold</FontFamily>
+        <FontFamily x:Key="MononokiNerdFont-BoldItalic">Resources/Fonts/MononokiNerdFont-BoldItalic.ttf#Mononoki Nerd Font Bold Italic</FontFamily>
+        <FontFamily x:Key="MononokiNerdFont-Italic">Resources/Fonts/MononokiNerdFont-Italic.ttf#Mononoki Nerd Font Italic</FontFamily>
+        <FontFamily x:Key="FontAwesome-Regular">Resources/Fonts/fa-regular-400.ttf#Font Awesome 6 Free Regular</FontFamily>
+        <FontFamily x:Key="FontAwesome-Solid">Resources/Fonts/fa-Solid-900.ttf#Font Awesome 6 Free Solid</FontFamily>
+        <FontFamily x:Key="OpenDyslexicNerdFont-Regular">Resources/Fonts/OpenDyslexicNerdFont-Regular.otf#OpenDyslexic Nerd Font</FontFamily>
+        <FontFamily x:Key="OpenDyslexicNerdFont-Bold">Resources/Fonts/OpenDyslexicNerdFont-Bold.otf#OpenDyslexic Nerd Font Bold</FontFamily>
+        <FontFamily x:Key="OpenDyslexicNerdFont-BoldItalic">Resources/Fonts/OpenDyslexicNerdFont-BoldItalic.otf#OpenDyslexic Nerd Font Bold Italic</FontFamily>
+        <FontFamily x:Key="OpenDyslexicNerdFont-Italic">Resources/Fonts/OpenDyslexicNerdFont-Italic.otf#OpenDyslexic Nerd Font Italic</FontFamily>
+    </Application.Resources>
+</Application>
+
+<!-- <Application.Resourses> -->
+<!--     <ResourceDictionary> -->
+<!--         <ResourceDictionary.MergedDictionaries> -->
+<!--             <ResourceDictionary Source="file one" /> -->
+<!--             <ResourceDictionary Source="file two" /> -->
+<!--             <ResourceDictionary Source="file three" /> -->
+<!--         </ResourceDictionary.MergedDictionaries> -->
+<!--     </ResourceDictionary> -->
+<!-- </Application.Resourses> -->

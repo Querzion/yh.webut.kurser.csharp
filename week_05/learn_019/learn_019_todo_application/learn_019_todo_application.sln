@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation_Avalonia", "Presentation_Avalonia\Presentation_Avalonia.csproj", "{CFFFA0D3-787F-4CBB-BE16-AEA5FEF65177}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{940FE4AB-A079-473F-8E1F-EFD0A22BEE54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFFFA0D3-787F-4CBB-BE16-AEA5FEF65177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFFA0D3-787F-4CBB-BE16-AEA5FEF65177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFFA0D3-787F-4CBB-BE16-AEA5FEF65177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFFA0D3-787F-4CBB-BE16-AEA5FEF65177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{940FE4AB-A079-473F-8E1F-EFD0A22BEE54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940FE4AB-A079-473F-8E1F-EFD0A22BEE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940FE4AB-A079-473F-8E1F-EFD0A22BEE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940FE4AB-A079-473F-8E1F-EFD0A22BEE54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

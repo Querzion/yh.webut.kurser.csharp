@@ -1,0 +1,8 @@
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_products_hans_tests/bin/Debug/net9.0/.msCoverageSourceRootsMapping_ex05_products_hans_tests
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_products_hans_tests/bin/Debug/net9.0/CoverletSourceRootsMapping_ex05_products_hans_tests
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_products_hans_tests/obj/Debug/net9.0/ex05_products_hans_tests.csproj.AssemblyReference.cache
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_products_hans_tests/obj/Debug/net9.0/ex05_products_hans_tests.GeneratedMSBuildEditorConfig.editorconfig
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_products_hans_tests/obj/Debug/net9.0/ex05_products_hans_tests.AssemblyInfoInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_products_hans_tests/obj/Debug/net9.0/ex05_products_hans_tests.AssemblyInfo.cs
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_products_hans_tests/obj/Debug/net9.0/ex05_products_hans_tests.csproj.CoreCompileInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05_Hans/ex05_products_hans_tests/obj/Debug/net9.0/ex05_products_hans_tests.sourcelink.json

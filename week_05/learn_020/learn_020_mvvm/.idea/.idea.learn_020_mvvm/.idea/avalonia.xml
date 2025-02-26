@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="DeleteMe_MVVM/App.axaml" value="DeleteMe_MVVM/DeleteMe_MVVM.csproj" />
+        <entry key="DeleteMe_MVVM/Views/MainWindow.axaml" value="DeleteMe_MVVM/DeleteMe_MVVM.csproj" />
+        <entry key="Presentation_MVVM_Avalonia/App.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
+        <entry key="Presentation_MVVM_Avalonia/MainWindow.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
+        <entry key="Presentation_MVVM_Avalonia/ViewModels/ListItemsViewModel.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
+        <entry key="Presentation_MVVM_Avalonia/Views/ActivitiesView.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
+        <entry key="Presentation_MVVM_Avalonia/Views/AddActivityView.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
+        <entry key="Presentation_MVVM_Avalonia/Views/ListItemsView.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
+        <entry key="Presentation_MVVM_Avalonia/test.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

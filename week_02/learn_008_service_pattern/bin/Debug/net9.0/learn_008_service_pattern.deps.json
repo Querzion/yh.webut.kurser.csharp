@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "learn_008_service_pattern/1.0.0": {
+        "runtime": {
+          "learn_008_service_pattern.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "learn_008_service_pattern/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

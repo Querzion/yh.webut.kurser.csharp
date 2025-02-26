@@ -1,0 +1,31 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Add Resources Here -->
+    <!-- OpenDyslexic Nerd Font -->
+    <FontFamily x:Key="OpenDyslexic-Regular">resm:Presentation_MVVM_Avalonia.Resources.Fonts.OpenDyslexicNerdFont-Regular.otf#OpenDyslexic Nerd Font Regular</FontFamily>
+    <FontFamily x:Key="OpenDyslexic-Italic">resm:Presentation_MVVM_Avalonia.Resources.Fonts.OpenDyslexicNerdFont-Italic.otf#OpenDyslexic Nerd Font Italic</FontFamily>
+    <FontFamily x:Key="OpenDyslexic-BoldItalic">resm:Presentation_MVVM_Avalonia.Resources.Fonts.OpenDyslexicNerdFont-BoldItalic.otf#OpenDyslexic Nerd Font Bold Italic</FontFamily>
+    <FontFamily x:Key="OpenDyslexic-Bold">resm:Presentation_MVVM_Avalonia.Resources.Fonts.OpenDyslexicNerdFont-Bold.otf#OpenDyslexic Nerd Font Bold</FontFamily>
+
+    <!-- Mononoki Nerd Font Propo -->
+    <FontFamily x:Key="MononokiPropo-Regular">resm:Presentation_MVVM_Avalonia.Resources.Fonts.MononokiNerdFontPropo-Regular.ttf#Mononoki Nerd Font Propo, Regular</FontFamily>
+    <FontFamily x:Key="MononokiPropo-Italic">resm:Presentation_MVVM_Avalonia.Resources.Fonts.MononokiNerdFontPropo-Italic.ttf#Mononoki Nerd Font Propo, Italic</FontFamily>
+    <FontFamily x:Key="MononokiPropo-BoldItalic">resm:Presentation_MVVM_Avalonia.Resources.Fonts.MononokiNerdFontPropo-BoldItalic.ttf#Mononoki Nerd Font Propo, Bold Italic</FontFamily>
+    <FontFamily x:Key="MononokiPropo-Bold">resm:Presentation_MVVM_Avalonia.Resources.Fonts.MononokiNerdFontPropo-Bold.ttf#Mononoki Nerd Font Propo, Bold</FontFamily>
+
+    <!-- Mononoki Nerd Font Mono -->
+    <FontFamily x:Key="MononokiMono-Regular">resm:Presentation_MVVM_Avalonia.Resources.Fonts.MononokiNerdFontMono-Regular.ttf#Mononoki Nerd Font Mono, Regular</FontFamily>
+    <FontFamily x:Key="MononokiMono-Italic">resm:Presentation_MVVM_Avalonia.Resources.Fonts.MononokiNerdFontMono-Italic.ttf#Mononoki Nerd Font Mono, Italic</FontFamily>
+    <FontFamily x:Key="MononokiMono-BoldItalic">resm:Presentation_MVVM_Avalonia.Resources.Fonts.MononokiNerdFontMono-BoldItalic.ttf#Mononoki Nerd Font Mono, Bold Italic</FontFamily>
+    <FontFamily x:Key="MononokiMono-Bold">resm:Presentation_MVVM_Avalonia.Resources.Fonts.MononokiNerdFontMono-Bold.ttf#Mononoki Nerd Font Mono, Bold</FontFamily>
+
+    <!-- Mononoki Nerd Font -->
+    <FontFamily x:Key="Mononoki-Regular">resm:Presentation_MVVM_Avalonia.Resources.Fonts.MononokiNerdFont-Regular.ttf#Mononoki Nerd Font, Regular</FontFamily>
+    <FontFamily x:Key="Mononoki-Italic">resm:Presentation_MVVM_Avalonia.Resources.Fonts.MononokiNerdFont-Italic.ttf#Mononoki Nerd Font, Italic</FontFamily>
+    <FontFamily x:Key="Mononoki-BoldItalic">resm:Presentation_MVVM_Avalonia.Resources.Fonts.MononokiNerdFont-BoldItalic.ttf#Mononoki Nerd Font, Bold Italic</FontFamily>
+    <FontFamily x:Key="Mononoki-Bold">resm:Presentation_MVVM_Avalonia.Resources.Fonts.MononokiNerdFont-Bold.ttf#Mononoki Nerd Font, Bold</FontFamily>
+
+    <!-- Font Awesome -->
+    <FontFamily x:Key="FontAwesome-Regular">resm:Presentation_MVVM_Avalonia.Resources.Fonts.fa-regular-400.ttf#Font Awesome 6 Free, Regular</FontFamily>
+    <FontFamily x:Key="FontAwesome-Solid">resm:Presentation_MVVM_Avalonia.Resources.Fonts.fa-solid-900.ttf#Font Awesome 6 Free, Solid</FontFamily>
+</ResourceDictionary>

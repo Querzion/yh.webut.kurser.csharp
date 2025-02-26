@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "hdHQovhvWUc=",
+  "success": true,
+  "projectFilePath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_todo_application/Business/Business.csproj",
+  "expectedPackageFiles": [
+    "/home/querzion/.nuget/packages/avalonia/11.2.3/avalonia.11.2.3.nupkg.sha512",
+    "/home/querzion/.nuget/packages/avalonia.buildservices/0.0.29/avalonia.buildservices.0.0.29.nupkg.sha512",
+    "/home/querzion/.nuget/packages/avalonia.remote.protocol/11.2.3/avalonia.remote.protocol.11.2.3.nupkg.sha512",
+    "/home/querzion/.nuget/packages/microcom.runtime/0.11.0/microcom.runtime.0.11.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "learn_012_3_phase11/1.0.0": {
+        "runtime": {
+          "learn_012_3_phase11.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "learn_012_3_phase11/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

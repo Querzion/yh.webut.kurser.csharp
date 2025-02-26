@@ -1,0 +1,40 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             
+             xmlns:local="clr-namespace:MA_Presentation_MVVM_Avalonia.Views"
+             xmlns:viewModels="clr-namespace:MA_Presentation_MVVM_Avalonia.ViewModels"
+             xmlns:models="clr-namespace:Business.Models;assembly=Business"
+             d:DataContext="{d:DesignInstance Type=viewModels:UserDetailsViewModel}"
+             x:DataType="viewModels:UserDetailsViewModel"
+             
+             mc:Ignorable="d" d:DesignWidth="300" d:DesignHeight="450"
+             x:Class="MA_Presentation_MVVM_Avalonia.Views.UserDetailsView">
+    
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="User Details" FontSize="20" FontWeight="Bold" />
+        
+        <StackPanel Grid.Row="1" Margin="0 20 0 0 ">
+            <TextBlock Text="First Name" />
+            <TextBlock Text="{Binding User.FirstName}" Margin="0,0,0,10" Padding="4" />
+            
+            <TextBlock Text="Last Name" />
+            <TextBlock Text="{Binding User.LastName}" Margin="0,0,0,10" Padding="4" />
+            
+            <TextBlock Text="Email" />
+            <TextBlock Text="{Binding User.Email}" Margin="0,0,0,10" Padding="4" />
+        </StackPanel>
+        
+        <StackPanel Grid.Row="2">
+            <Button Command="{Binding GoToEditViewCommand}" Content="Edit" Margin="0 10 0 5" Padding="5" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" />
+            <Button Command="{Binding CancelCommand}" Content="Cancel" Margin="0 5 0 10" Padding="5" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" />
+        </StackPanel>
+    </Grid>
+</UserControl>

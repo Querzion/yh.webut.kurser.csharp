@@ -1,0 +1,14 @@
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_Business/bin/Debug/net9.0/learn_019_Business.deps.json
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_Business/bin/Debug/net9.0/learn_019_Business.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_Business/bin/Debug/net9.0/learn_019_Business.pdb
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_Business/obj/Debug/net9.0/learn_019_Business.GeneratedMSBuildEditorConfig.editorconfig
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_Business/obj/Debug/net9.0/learn_019_Business.AssemblyInfoInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_Business/obj/Debug/net9.0/learn_019_Business.AssemblyInfo.cs
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_Business/obj/Debug/net9.0/learn_019_Business.csproj.CoreCompileInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_Business/obj/Debug/net9.0/learn_019_Business.sourcelink.json
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_Business/obj/Debug/net9.0/learn_019_Business.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_Business/obj/Debug/net9.0/refint/learn_019_Business.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_Business/obj/Debug/net9.0/learn_019_Business.pdb
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_Business/obj/Debug/net9.0/ref/learn_019_Business.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_Business/obj/Debug/net9.0/learn_019_Business.csproj.AssemblyReference.cache
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_Business/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache

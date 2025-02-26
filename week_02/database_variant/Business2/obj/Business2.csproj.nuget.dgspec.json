@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Business2/Business2.csproj": {}
+  },
+  "projects": {
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Business2/Business2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Business2/Business2.csproj",
+        "projectName": "Business2",
+        "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Business2/Business2.csproj",
+        "packagesPath": "/home/querzion/.nuget/packages/",
+        "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Business2/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/querzion/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Data/Data.csproj": {
+                "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Data/Data.csproj"
+              },
+              "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Domain2/Domain2.csproj": {
+                "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Domain2/Domain2.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Data/Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Data/Data.csproj",
+        "projectName": "Data",
+        "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Data/Data.csproj",
+        "packagesPath": "/home/querzion/.nuget/packages/",
+        "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/querzion/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Domain2/Domain2.csproj": {
+                "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Domain2/Domain2.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Domain2/Domain2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Domain2/Domain2.csproj",
+        "projectName": "Domain2",
+        "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Domain2/Domain2.csproj",
+        "packagesPath": "/home/querzion/.nuget/packages/",
+        "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Domain2/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/querzion/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

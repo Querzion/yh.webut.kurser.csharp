@@ -1,0 +1,80 @@
+        <!-- TransparencyLevelHint="Transparent" -->
+        <!-- ExtendClientAreaChromeHints="NoChrome" -->
+        <!-- ExtendClientAreaToDecorationsHint="True" -->
+        <!-- Background="#404040" -->
+        <!-- Foreground="#FFE4A3" -->
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        
+        xmlns:local="clr-namespace:Presentation_MVVM_Avalonia"
+        xmlns:viewModels="clr-namespace:Presentation_MVVM_Avalonia.ViewModels"
+        xmlns:views="clr-namespace:Presentation_MVVM_Avalonia.Views"
+        d:DataContext="{d:DesignInstance Type=viewModels:MainViewModel}"
+        x:DataType="viewModels:MainViewModel"
+        
+        WindowStartupLocation="CenterScreen"
+        SystemDecorations="None"
+        Background="Transparent"
+        
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Presentation_MVVM_Avalonia.MainWindow"
+        Title="Activity Application" Height="770" Width="400">
+    
+    <!-- <Window.DataTemplates> -->
+    <!-- </Window.DataTemplates> -->
+    
+    <!-- Move the whole window at any point. -->
+    <!-- <Grid Margin="15 15 0 0" Background="Transparent" PointerPressed="Grid_PointerPressed"> -->
+    <!--     <ContentControl Content="{Binding CurrentViewModel}"/> -->
+    <!-- </Grid> -->
+    
+    <Border Background="#333333" CornerRadius="25">
+        <!-- Code is shortened down to two rows based on pixel-height and rest. -->
+        <Grid RowDefinitions="70,*">
+            <!-- <Grid.RowDefinitions> -->
+            <!--     <RowDefinition Height="70" /> -->
+            <!--     <RowDefinition Height="*" /> -->
+            <!-- </Grid.RowDefinitions> -->
+            
+            <Grid x:Name="TopBar" Grid.Row="0" Background="Transparent" PointerPressed="TopBar_PointerPressed">
+                <!-- Avalonia Version -->
+                <Button Click="ExitButton_OnClick" Classes="ExitButton" />
+                <!-- WPF Version -->
+                <!-- <Button Click="ExitButton_OnClick" Style="{StaticResource ExitButton}" /> -->
+            </Grid>
+            
+            <!-- Avalonia Version -->
+            <ContentControl Grid.Row="1" Content="{Binding CurrentViewModel}">
+                <ContentControl.DataTemplates>
+                        <DataTemplate DataType="{x:Type viewModels:GetStartedViewModel}">
+                            <views:GetStartedView/>
+                        </DataTemplate>
+                        <DataTemplate DataType="{x:Type viewModels:AddItemsViewModel}">
+                            <views:AddItemView/>
+                        </DataTemplate>
+                        <DataTemplate DataType="{x:Type viewModels:ListItemsViewModel}">
+                            <views:ListItemsView/>
+                        </DataTemplate>
+                </ContentControl.DataTemplates>
+            </ContentControl>
+            
+            <!-- WPF Version -->
+            <!-- <ContentControl Grid.Row="1" Content="{Binding CurrentViewModel}"> -->
+            <!--     <ContentControl.Resources> -->
+            <!--             <DataTemplate DataType="{x:Type viewModels:GetStartedViewModel}"> -->
+            <!--                 <views:GetStartedView/> -->
+            <!--             </DataTemplate> -->
+            <!--             <DataTemplate DataType="{x:Type viewModels:AddItemsViewModel}"> -->
+            <!--                 <views:AddItemView/> -->
+            <!--             </DataTemplate> -->
+            <!--             <DataTemplate DataType="{x:Type viewModels:ListItemsViewModel}"> -->
+            <!--                 <views:ListItemsView/> -->
+            <!--             </DataTemplate> -->
+            <!--     </ContentControl.Resources> -->
+            <!-- </ContentControl> -->
+            
+        </Grid>
+    </Border>
+</Window>

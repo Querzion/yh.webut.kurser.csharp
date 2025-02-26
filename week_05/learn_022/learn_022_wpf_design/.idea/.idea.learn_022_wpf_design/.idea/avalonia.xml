@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="Presentation_MVVM_Avalonia/App.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
+        <entry key="Presentation_MVVM_Avalonia/MainWindow.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
+        <entry key="Presentation_MVVM_Avalonia/Resources/Fonts/Fonts.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
+        <entry key="Presentation_MVVM_Avalonia/Resources/Styling/Buttons.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
+        <entry key="Presentation_MVVM_Avalonia/Resources/Styling/CustomStyling.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
+        <entry key="Presentation_MVVM_Avalonia/Resources/Styling/Typo.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
+        <entry key="Presentation_MVVM_Avalonia/Resources/Styling/Typography.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
+        <entry key="Presentation_MVVM_Avalonia/Views/AddItemView.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
+        <entry key="Presentation_MVVM_Avalonia/Views/GetStartedView.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
+        <entry key="Presentation_MVVM_Avalonia/Views/ListItemsView.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

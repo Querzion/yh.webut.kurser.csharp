@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+        <ApplicationManifest>app.manifest</ApplicationManifest>
+        <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+<!--        THIS IS INSTEAD OF AN "AssemblyInfo.cs" FILE!-->
+<!--        EQUAL TO AssemblyTitle-->
+        <AssemblyName>Learn_018_WPF</AssemblyName>
+<!--        EQUAL TO AssemblyDescription-->
+        <Description>My Avalonia Application</Description>
+<!--        EQUAL TO AssemblyCompany-->
+        <Company>Querzion Inc.</Company>
+        <Product>My Product</Product>
+        <Version>0.0.0.100</Version>
+        <Authors>Slisk Lindqvist</Authors>
+<!--        EXAMPLE FOR HOW TO STATE A LICENSE-->
+<!--        <PackageLicenseExpression>MIT</PackageLicenseExpression>-->
+<!--        EQUAL TO NeutralResourcesLanguage-->
+        <NeutralLanguage>sv-SE</NeutralLanguage>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Avalonia" Version="11.2.1"/>
+        <PackageReference Include="Avalonia.Desktop" Version="11.2.1"/>
+        <PackageReference Include="Avalonia.Themes.Fluent" Version="11.2.1"/>
+        <PackageReference Include="Avalonia.Fonts.Inter" Version="11.2.1"/>
+        <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
+        <PackageReference Include="Avalonia.Diagnostics" Version="11.2.1">
+            <IncludeAssets Condition="'$(Configuration)' != 'Debug'">None</IncludeAssets>
+            <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
+        </PackageReference>
+    </ItemGroup>
+</Project>

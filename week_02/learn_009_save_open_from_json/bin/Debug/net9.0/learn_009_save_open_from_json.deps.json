@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "learn_009_save_open_from_json/1.0.0": {
+        "runtime": {
+          "learn_009_save_open_from_json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "learn_009_save_open_from_json/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

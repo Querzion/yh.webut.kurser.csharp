@@ -1,0 +1,15 @@
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/bin/Debug/net9.0/ex05_products
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/bin/Debug/net9.0/ex05_products.deps.json
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/bin/Debug/net9.0/ex05_products.runtimeconfig.json
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/bin/Debug/net9.0/ex05_products.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/bin/Debug/net9.0/ex05_products.pdb
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/obj/Debug/net9.0/ex05_products.GeneratedMSBuildEditorConfig.editorconfig
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/obj/Debug/net9.0/ex05_products.AssemblyInfoInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/obj/Debug/net9.0/ex05_products.AssemblyInfo.cs
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/obj/Debug/net9.0/ex05_products.csproj.CoreCompileInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/obj/Debug/net9.0/ex05_products.sourcelink.json
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/obj/Debug/net9.0/ex05_products.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/obj/Debug/net9.0/refint/ex05_products.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/obj/Debug/net9.0/ex05_products.pdb
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/obj/Debug/net9.0/ex05_products.genruntimeconfig.cache
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/obj/Debug/net9.0/ref/ex05_products.dll

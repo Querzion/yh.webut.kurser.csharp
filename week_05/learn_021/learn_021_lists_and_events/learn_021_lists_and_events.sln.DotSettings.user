@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AStyledElement_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002Econfig_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003Fb06c2ce0981bf6e5989cda2e3e737e53c2d54ee6ae7e7ce318d378f52e5f66_003FStyledElement_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
+  &lt;PhysicalFolder Path="/home/querzion/.nuget/packages/avalonia.controls.datagrid/11.2.1" Loaded="True" /&gt;
+  &lt;PhysicalFolder Path="/home/querzion/.nuget/packages/avalonia.controls.datagrid/11.2.2" Loaded="True" /&gt;
+  &lt;PhysicalFolder Path="/home/querzion/.nuget/packages/avalonia.controls.datagrid/11.2.3" Loaded="True" /&gt;
+&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>

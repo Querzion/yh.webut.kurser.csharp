@@ -1,0 +1,151 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0-windows7.0": {
+      "Business_/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Data_": "1.0.0",
+          "Domain_": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Business_.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business_.dll": {}
+        }
+      },
+      "Data_/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Data_.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Data_.dll": {}
+        }
+      },
+      "Domain_/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Dtos_": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain_.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain_.dll": {}
+        }
+      },
+      "Dtos_/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Dtos_.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dtos_.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Business_/1.0.0": {
+      "type": "project",
+      "path": "../presentation_classes/Business_/Business_.csproj",
+      "msbuildProject": "../presentation_classes/Business_/Business_.csproj"
+    },
+    "Data_/1.0.0": {
+      "type": "project",
+      "path": "../presentation_classes/Data_/Data_.csproj",
+      "msbuildProject": "../presentation_classes/Data_/Data_.csproj"
+    },
+    "Domain_/1.0.0": {
+      "type": "project",
+      "path": "../presentation_classes/Domain_/Domain_.csproj",
+      "msbuildProject": "../presentation_classes/Domain_/Domain_.csproj"
+    },
+    "Dtos_/1.0.0": {
+      "type": "project",
+      "path": "../presentation_classes/Dtos_/Dtos_.csproj",
+      "msbuildProject": "../presentation_classes/Dtos_/Dtos_.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0-windows7.0": [
+      "Business_ >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/querzion/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/learn_010_presentation_wpf/learn_010_presentation_wpf.csproj",
+      "projectName": "learn_010_presentation_wpf",
+      "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/learn_010_presentation_wpf/learn_010_presentation_wpf.csproj",
+      "packagesPath": "/home/querzion/.nuget/packages/",
+      "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/learn_010_presentation_wpf/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/querzion/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0-windows"
+      ],
+      "sources": {
+        "/usr/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "projectReferences": {
+            "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Business_/Business_.csproj": {
+              "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Business_/Business_.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0-windows7.0": {
+        "targetAlias": "net9.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

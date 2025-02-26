@@ -1,0 +1,12 @@
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_021/learn_021_lists_and_events/Business/bin/Debug/net9.0/Business.deps.json
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_021/learn_021_lists_and_events/Business/bin/Debug/net9.0/Business.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_021/learn_021_lists_and_events/Business/bin/Debug/net9.0/Business.pdb
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_021/learn_021_lists_and_events/Business/obj/Debug/net9.0/Business.GeneratedMSBuildEditorConfig.editorconfig
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_021/learn_021_lists_and_events/Business/obj/Debug/net9.0/Business.AssemblyInfoInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_021/learn_021_lists_and_events/Business/obj/Debug/net9.0/Business.AssemblyInfo.cs
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_021/learn_021_lists_and_events/Business/obj/Debug/net9.0/Business.csproj.CoreCompileInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_021/learn_021_lists_and_events/Business/obj/Debug/net9.0/Business.sourcelink.json
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_021/learn_021_lists_and_events/Business/obj/Debug/net9.0/Business.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_021/learn_021_lists_and_events/Business/obj/Debug/net9.0/refint/Business.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_021/learn_021_lists_and_events/Business/obj/Debug/net9.0/Business.pdb
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_021/learn_021_lists_and_events/Business/obj/Debug/net9.0/ref/Business.dll

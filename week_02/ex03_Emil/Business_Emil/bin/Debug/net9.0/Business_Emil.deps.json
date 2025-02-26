@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Business_Emil/1.0.0": {
+        "runtime": {
+          "Business_Emil.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Business_Emil/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
